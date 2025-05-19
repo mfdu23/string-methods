@@ -24,7 +24,3 @@ frutas = ["Manzana", "Plátano", "Pera", "Mandarina", "Fresa", "Piña"]
 
 # shorthand (abreviación)
 [print(fruta) for fruta in frutas]
-
-#------------------------------
-# COMPRENSION DE LISTAS
-#------------------------------
