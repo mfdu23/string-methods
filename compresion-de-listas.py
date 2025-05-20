@@ -28,7 +28,7 @@ frutas = ["Manzana", "Plátano", "Pera", "Mandarina", "Fresa", "Piña"]
 # frutas.sort()
 # print(frutas)
 
-numeros = [9, 999, 88, 1, 2, 3]
+# numeros = [9, 999, 88, 1, 2, 3]
 
 # numeros.sort()
 # print(numeros)
@@ -36,10 +36,32 @@ numeros = [9, 999, 88, 1, 2, 3]
 # frutas.sort(reverse=True)
 # print(frutas)
 
-frutas2 = ["Manzana", "Plátano", "pera", "mandarina", "Fresa", "Piña"]
+# frutas2 = ["Manzana", "Plátano", "pera", "mandarina", "Fresa", "Piña"]
 # frutas2.sort()
 # frutas2.sort(key = str.lower) # Para no prestarle atención al orden entre mayúsculas y minúsculas
 
-frutas2.reverse() # Da vuelta toda la lista
+# frutas2.reverse() # Da vuelta toda la lista
 
-print(frutas2)
+# print(frutas2)
+
+#--------------------------------
+# COPIAR Y JUNTAR LISTAS
+#--------------------------------
+
+# copia_frutas = frutas.copy()
+# print(copia_frutas)
+
+# copia2_frutas = list(frutas)
+# print(copia2_frutas)
+
+# frutas1 = ["Manzana", "Plátano", "Pera"]
+# frutas2 = ["Mandarina", "Fresa", "Piña"]
+
+# frutas = frutas1 + frutas2
+
+# frutas1.extend(frutas2)
+
+# print(frutas1)
+
+frutas = ["Manzana", "Plátano", "Pera", "Manzana", "Fresa", "Piña"]
+print(frutas.count("Manzana")) # De esta forma me indica cuantas veces está un elemento dentro de una lista.
